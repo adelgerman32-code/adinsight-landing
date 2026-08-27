@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://adelgerman32-code.github.io/adinsight-landing/
