@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>ADInsight AI — Настройка Яндекс.Директа</title>
+<link rel="icon" type="image/png" href="favicon.png">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -557,7 +558,7 @@
   <div class="container">
     <div class="section-tag">Как я решаю ваши проблемы</div>
     <h2 class="section-title">Прозрачность вместо <span class="hl">красивых отчётов</span></h2>
-    <p class="section-desc">Я не показываю кейсы — я показываю, как именно работаю. Дальше решаете сами.</p>
+    <p class="section-desc">Показываю, как именно работаю — и что из этого получается.</p>
     <div class="trust-grid">
       <div class="trust-card">
         <div class="trust-icon">👤</div>
@@ -577,7 +578,72 @@
     </div>
     <div style="margin-top:24px;display:inline-flex;align-items:center;gap:10px;background:var(--dark-2);border:1px solid var(--teal);border-radius:10px;padding:10px 18px;font-size:13px;">
       <span>✅</span>
-      <span><b>Официально: самозанятая (НПД).</b> Работаю по договору, с чеками — без «серых» схем.</span>
+      <span><b>Официально: СЗ (ПНД).</b> Работаю по договору, с чеками.</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CASE ===== -->
+<style>
+.case-wrap {
+  background: var(--dark-2);
+  border: 1px solid #2a2a2a;
+  border-radius: 20px;
+  padding: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+.case-shot {
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid #2a2a2a;
+  display: block;
+}
+.case-headline {
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 16px;
+  line-height: 1.3;
+}
+.case-text p { color: var(--gray); font-size: 15px; margin-bottom: 14px; }
+.case-text ul { padding-left: 18px; margin: 14px 0; }
+.case-text li { color: var(--gray); font-size: 15px; margin-bottom: 8px; }
+.case-text b { color: var(--white); }
+.case-note {
+  margin-top: 18px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(26,188,156,0.1);
+  border: 1px solid var(--teal);
+  border-radius: 10px;
+  padding: 8px 14px;
+  font-size: 13px;
+  color: var(--teal);
+}
+@media (max-width: 800px) {
+  .case-wrap { grid-template-columns: 1fr; padding: 24px; }
+}
+</style>
+<section>
+  <div class="container">
+    <div class="section-tag">Реальный кейс</div>
+    <h2 class="section-title">Цифры вместо <span class="hl">обещаний</span></h2>
+    <p class="section-desc">Скриншот из рекламного кабинета — без ретуши и без «отобранных» дней.</p>
+    <div class="case-wrap">
+      <img src="case-funnel-1.png" alt="Скриншот воронки эффективности продвижения в Яндекс.Директе" class="case-shot">
+      <div class="case-text">
+        <div class="case-headline">Выход на целевые показатели за 5 дней</div>
+        <p>Мы получили первые 9 целевых конверсий уже на 5-й день работы кампании, когда алгоритмы только начинают накапливать статистику. При этом:</p>
+        <ul>
+          <li>CTR составил <b>0,98%</b>, что вдвое выше типичных значений для этого периода;</li>
+          <li>стоимость цели зафиксировалась на уровне <b>364,77 ₽</b> — в то время как в фазе обучения CPA в B2B-услугах нередко превышает 1500–2000 ₽.</li>
+        </ul>
+        <p>Кампания вышла на операционную окупаемость практически мгновенно. Прогнозируемый рост эффективности в ближайшие 1–2 недели позволит ещё сильнее улучшить все ключевые метрики.</p>
+        <div class="case-note">📊 Данные — прямой скриншот статистики кампании</div>
+      </div>
     </div>
   </div>
 </section>
